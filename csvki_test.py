@@ -14,11 +14,6 @@ my_dict_list = [
 filename = 'records.csv'
 
 with open(filename, 'w', newline='') as csv_f:
-    csvwriter = csv.DictWriter(csv_f, fieldnames=fields,  delimiter=';')
+    csvwriter = csv.DictWriter(csv_f, fieldnames=fields, delimiter=';')
     csvwriter.writeheader()
     csvwriter.writerows(my_dict_list)
-
-
-
-
-

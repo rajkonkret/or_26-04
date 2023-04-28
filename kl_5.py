@@ -62,3 +62,4 @@ kur_2.lataj()
 kur_2.dziobanie()
 or_2.poluj()
 kur_2.wydaj_odglos()
+# 14:20
